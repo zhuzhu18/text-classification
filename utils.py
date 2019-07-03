@@ -82,8 +82,3 @@ class AverageMeter(object):
         self.count += n
         self.avg = self.sum / self.count
 
-# a = np.arange(10).reshape(5,2)
-# b = np.arange(5)
-# for i in range(4):
-#     for step, j in enumerate(batch(a, b, 2)):
-#         print('i,step:%d, %d'%(i,step))
